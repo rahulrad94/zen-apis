@@ -10,7 +10,7 @@ get_urls = {
     "companies": "https://api.zenefits.com/core/companies"
 }
 
-myToken = '4ZUwULwgQTu8W4XUFMEd'
+myToken = ''
 headers = {'Authorization': 'Bearer ' + myToken}
 
 

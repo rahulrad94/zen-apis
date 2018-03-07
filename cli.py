@@ -10,7 +10,6 @@ import helper
 
 
 class Cli:
-
     company_id = ""
 
     def show(self):
