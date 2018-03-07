@@ -92,7 +92,7 @@ def extractInfo(employee_list, export):
             location = employee['location']
 
         if employee['manager'] is not None:
-            manager = (str(employee['manager']['first_name']) + str(employee['manager']['last_name']))
+            manager = (str(employee['manager']['first_name']) + ' ' + str(employee['manager']['last_name']))
         else:
             # assign none
             manager = employee['manager']
